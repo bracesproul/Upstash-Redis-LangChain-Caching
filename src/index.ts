@@ -2,7 +2,7 @@ import { llmChat } from './llm-chat';
 
 async function main() {
   const prompt = 'What is the best dog food?';
-  console.log('calling main');
+
   // Call our llmChat twice with the same prompts.
   const response1 = await llmChat(prompt);
   const response2 = await llmChat(prompt);
