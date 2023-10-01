@@ -5,7 +5,10 @@ import dotenv from "dotenv";
 dotenv.config();
 
 // Ensures we have the required environment variables
-if (!process.env.UPSTASH_REDIS_REST_URL || !process.env.UPSTASH_REDIS_REST_TOKEN) {
+if (
+  !process.env.UPSTASH_REDIS_REST_URL ||
+  !process.env.UPSTASH_REDIS_REST_TOKEN
+) {
   throw new Error("Missing Upstash Redis REST URL or REST TOKEN");
 }
 
