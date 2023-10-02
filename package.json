@@ -11,6 +11,6 @@
   "dependencies": {
     "@upstash/redis": "^1.22.1",
     "dotenv": "^16.3.1",
-    "langchain": "^0.0.156"
+    "langchain": "^0.0.157"
   }
 }
